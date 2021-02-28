@@ -32,7 +32,7 @@ amplify init
 ## Add Authentication
 
 amplify add auth
-amplify push
+amplify push or amplify push --y
 
 ## Add GraphQL API
 
