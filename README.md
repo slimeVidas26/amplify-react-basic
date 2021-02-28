@@ -7,7 +7,7 @@ Add authentication
 Add GraphQL api
 Deploy and host on Amplify
 
-## Create react application
+## Create react application app
 
 npx create-react-app amplify-react-basic
 cd amplify-react-basic
