@@ -1,8 +1,50 @@
-# Getting Started with Create React App
+# Creating React + GraphQL Serverless Web application using AWS Amplify
+[https://towardsdatascience.com/creating-react-graphql-serverless-web-application-using-aws-amplify-40e56f25796b]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+reate react application
+Add authentication
+Add GraphQL api
+Deploy and host on Amplify
 
-## Available Scripts
+## Install and configure Amplify CLI
+
+## Create react application
+
+npx create-react-app amplify-react-basic
+cd amplify-react-basic
+npm start
+
+## connect to git
+git init
+git remote add origin [https://github.com/slimeVidas26/amplify-react-sample.git]
+git push -u origin master
+
+npm install -g @aws-amplify/cli
+amplify configure
+
+
+## add aws-amplify to our react application
+
+npm install aws-amplify @aws-amplify/ui-react
+amplify init
+
+
+
+## Add Authentication
+
+amplify add auth
+amplify push
+
+## Add GraphQL API
+
+npm install @material-ui/core
+amplify add api
+amplify push
+
+## Deploy and host on Amplify
+
+amplify add hosting
+amplify publish
 
 In the project directory, you can run:
 
