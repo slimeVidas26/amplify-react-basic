@@ -44,3 +44,10 @@ amplify push
 
 amplify add hosting
 amplify publish
+
+## clone
+
+git clone [https://github.com/slimeVidas26/amplify-react-basic.git] amplify-react-actors
+npm install
+git  add commit push...
+amplify init
