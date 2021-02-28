@@ -47,7 +47,7 @@ amplify publish
 
 ## clone
 
-git clone [https://github.com/slimeVidas26/amplify-react-basic.git]
+git clone [https://github.com/slimeVidas26/amplify-react-basic.git] amplify-react-actors
 npm install
 amplify init
 git push
