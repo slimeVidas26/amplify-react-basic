@@ -6,7 +6,6 @@ Add authentication
 Add GraphQL api
 Deploy and host on Amplify
 
-## Install and configure Amplify CLI
 
 ## Create react application
 
@@ -18,6 +17,9 @@ npm start
 git init
 git remote add origin [https://github.com/slimeVidas26/amplify-react-sample.git]
 git push -u origin master
+
+
+## Install and configure Amplify CLI
 
 npm install -g @aws-amplify/cli
 amplify configure
